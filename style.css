@@ -1,0 +1,75 @@
+.background {
+  background: url(https://cdn10.bigcommerce.com/s-hi7gs6/product_images/uploaded_images/how-to-break-hex-curse-spells.jpg?t=1549383201) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: Red;
+  background-color: none;
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bob-head {
+  height: 100px;
+}
+
+.center-div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  padding: 50px 100px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+}
+
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.button-anim {
+  animation-name: fadeInOut;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.quote-text {
+  font-size: 22px;
+  text-align: center;
+}
+
+
+.author-text {
+  font-size:12px;
+  padding: none;
+}
